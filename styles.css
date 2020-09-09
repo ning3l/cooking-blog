@@ -13,10 +13,33 @@ h5 {
     font-size: 40px;
 }
 
-img {
-    height: 650px;
+
+.card-section {
+    width: 60%;
+    margin: 0 auto;
+    height: 100px;
 }
 
+.card-header {
+    font-family:'Parisienne', cursive;
+    text-align: center;
 
+}
+
+.card-title {
+    text-align: center;
+}
+
+.row {
+    padding: 10px;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card-body {
+    height: 5px;
+}
 
 /* DOWN HERE RECIPE ONLY */
