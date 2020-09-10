@@ -1,3 +1,10 @@
+/* RESETS AND GENERAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -9,14 +16,35 @@ html {
 }
 
 
-h5 {
-    font-size: 40px;
+/* NAV, HEADER & ABOUT */
+
+.logo {
+    height: 60px;
 }
 
-img {
-    height: 650px;
+.carousel-heading {
+    font-size: 7rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bg-green {
+    background-color: #95D7AE;
+}
+
+hr {
+    width: 20%;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 
+/* FOOTER */
 
-/* DOWN HERE RECIPE ONLY */
+
+/* RECIPE PAGE STARTS HERE */
