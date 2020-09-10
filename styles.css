@@ -18,3 +18,82 @@ body {
 
 /* Comment section */
 
+
+
+
+/* -------------------ROW 1- profile pic-----------------------  */
+
+h3 {
+    font-size: 15px; 
+    padding: 5px; 
+}
+.container-1 {
+
+    background-color: orange;
+    width: 800px;
+    margin: 30px; 
+    border: 
+
+}
+    
+
+
+
+
+.col-sm-2 img {
+
+    margin: 4px;
+    border: solid;
+    height: 50px; 
+    width: 50px;
+    
+}
+
+
+.row {
+    background-color: 
+}
+
+.col-sm-6 {
+        background-color:
+        width: 50px;
+        height: 5px; 
+
+
+
+}
+
+
+
+.col-sm-4  {
+        background-color: pink;
+        width: 
+        height: 
+
+}
+
+
+
+
+/* -------------------ROW 2- comments section-----------------------  */
+
+.container-2 {
+    background-color: pink; 
+    margin: 30px;
+    width: 800px;
+
+}
+
+.col-sm-4 {
+    background-color:brown;
+}
+
+
+/* -------------------ROW 1- ratings bar -----------------------  */
+
+.container-3 {
+    background-color: blueviolet;
+    margin: 30px;
+    width: 800px;
+    height: 60px; 
+} 
