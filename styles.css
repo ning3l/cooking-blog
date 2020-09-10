@@ -1,10 +1,10 @@
-body {
+ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html {
+/* html {
     font-size: 16px;
 }
 
@@ -17,10 +17,30 @@ img {
     height: 650px;
 }
 
-
+*/
 
 /* DOWN HERE RECIPE ONLY */
 
-.rcp {
-    width: 200px;
+.recipeimg {
+    width: 400px;
+    height:500px;
+    justify-content: left;
 }
+.heading .description {
+    margin-bottom: 15px;
+}
+
+.howto {
+    margin-top: 15px;
+    
+}
+ 
+
+image {
+    background-color: blue;
+}
+.checked {
+    color:#95D7AE;
+  }
+
+  
