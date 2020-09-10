@@ -11,7 +11,7 @@ body {
     padding: 0;
 }
 
-html {
+/* html {
     font-size: 16px;
 }
 
@@ -39,12 +39,118 @@ hr {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 3rem;
+
+
+/* DOWN HERE RECIPE ONLY */
+
+/* RECIPE PAGE STARTS HERE */
+.recipeimg {
+    width: 400px;
+    height:500px;
+    justify-content: left;
+}
+.heading .description {
+    margin-bottom: 15px;
+}
+
+.howto {
+    margin-top: 15px;
+    
+}
+ 
+
+image {
+    background-color: blue;
+}
+.checked {
+    color:#95D7AE;
+  }
+
+
+/* DOWN HERE RECIPE ONLY */
+
+
+
+
+
+/* Comment section */
+
+
+
+
+/* -------------------ROW 1- profile pic-----------------------  */
+
+h3 {
+    font-size: 15px; 
+    padding: 5px; 
+}
+.container-1 {
+
+    background-color: orange;
+    width: 800px;
+    margin: 30px; 
+    border: 
+
+}
+    
+
+
+
+
+.col-sm-2 img {
+
+    margin: 4px;
+    border: solid;
+    height: 50px; 
+    width: 50px;
+    
 }
 
 
-/* FOOTER */
+.row {
+    background-color: 
+}
+
+.col-sm-6 {
+        background-color:
+        width: 50px;
+        height: 5px; 
 
 
-/* RECIPE PAGE STARTS HERE */
+
+}
+
+
+
+.col-sm-4  {
+        background-color: pink;
+        width: 
+        height: 
+
+}
+
+
+
+
+/* -------------------ROW 2- comments section-----------------------  */
+
+.container-2 {
+    background-color: pink; 
+    margin: 30px;
+    width: 800px;
+
+}
+
+.col-sm-4 {
+    background-color:brown;
+}
+
+
+/* -------------------ROW 1- ratings bar -----------------------  */
+
+.container-3 {
+    background-color: blueviolet;
+    margin: 30px;
+    width: 800px;
+    height: 60px; 
+} 
