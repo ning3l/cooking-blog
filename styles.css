@@ -16,27 +16,24 @@ h5 {
 
 .card-section {
     margin: 0 auto;
-    height: 100px;
+    
 }
-
 .col-sm-12 {
-    background-color: #73956F; 
-    opacity: 0.5;
-    font-family:'Parisienne', cursive;
+      
     text-align: center;
     font-size: 36px;
     font-style: bold;
+    border: 1px solid green;
 }
-
 
 
 
 .card-header {
-    font-family:'Parisienne', cursive;
+    font-family:'Cookie', Helvetica, sans-serif;
     text-align: center;
-    font-size: 36px;
+    font-size: 56px;
     font-style: bold;
-
+    color: #73956F;   
 }
 
 .card-title {
@@ -46,14 +43,20 @@ h5 {
 
 .row {
     padding: 10px;
+    
+    
 }
 
 .card {
-    padding: 5px;
+    padding: 10px;
+   
+    
 }
 
 .card-body {
     height: 5px;
+    font-size: 22px;
+    color: #73956F;
 }
 
 /* DOWN HERE RECIPE ONLY */
