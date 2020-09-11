@@ -1,4 +1,11 @@
- body {
+/* RESETS AND GENERAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,18 +16,34 @@
 }
 
 
-h5 {
-    font-size: 40px;
+/* NAV, HEADER & ABOUT */
+
+.logo {
+    height: 60px;
 }
 
-img {
-    height: 650px;
+.carousel-heading {
+    font-size: 7rem;
+    font-family: 'Abril Fatface', cursive;
 }
 
-*/
+.bg-green {
+    background-color: #95D7AE;
+}
+
+hr {
+    width: 20%;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
 /* DOWN HERE RECIPE ONLY */
 
+/* RECIPE PAGE STARTS HERE */
 .recipeimg {
     width: 400px;
     height:500px;
@@ -43,6 +66,128 @@ image {
     color:#95D7AE;
   }
 
-  .colorhead {
-      background-color: #454851;
-  }
+
+
+
+/* -------------------ROW 1- profile pic-----------------------  */
+
+h3 {
+    font-size: 15px; 
+    padding: 5px; 
+}
+.container-1 {
+
+    background-color: orange;
+    width: 800px;
+    margin: 30px; 
+    border: 
+
+}
+    
+
+
+
+
+.col-sm-2 img {
+
+    margin: 4px;
+    border: solid;
+    height: 50px; 
+    width: 50px;
+    
+}
+
+
+.row {
+    background-color: 
+}
+
+.col-sm-6 {
+        background-color:
+        width: 50px;
+        height: 5px; 
+
+
+
+}
+
+
+
+.col-sm-4  {
+        background-color: pink;
+        width: 
+        height: 
+
+}
+
+
+
+
+/* -------------------ROW 2- comments section-----------------------  */
+
+.container-2 {
+    background-color: pink; 
+    margin: 30px;
+    width: 800px;
+
+}
+
+
+
+.card-section {
+    margin: 0 auto;
+    height: 100px;
+}
+
+.col-sm-12 {
+    background-color: #73956F; 
+    opacity: 0.5;
+    font-family:'Parisienne', cursive;
+    text-align: center;
+    font-size: 36px;
+    font-style: bold;
+
+.col-sm-4 {
+    background-color: brown;
+
+}
+
+
+/* -------------------ROW 1- ratings bar -----------------------  */
+
+
+
+.card-header {
+    font-family:'Parisienne', cursive;
+    text-align: center;
+    font-size: 36px;
+    font-style: bold;
+
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card-body {
+    height: 5px;
+}
+
+
+
+.container-3 {
+    background-color: blueviolet;
+    margin: 30px;
+    width: 800px;
+    height: 60px; 
+} 
+

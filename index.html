@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -44,12 +44,39 @@
     </div>
   </nav>
 
-    
+    <!-- HEADER SECTION : LAURA-->
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#"><img class="logo" src="/img/logo.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"> <!-- class="d-flex justify-content-center"-->
+            <li class="nav-item active ml-3">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">Breakfast</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">Lunch</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">Dinner</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
-
-
-
+    <!-- HEADER CAROUSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide bg-green" data-ride="carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -58,17 +85,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/img/header-1.jpg" class="d-block w-100" alt="...">
+            <img src="/img/header-2.jpg" class="d-block w-75 mx-auto carousel-img" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Amazing Avocados</h5>
-                <p>bla bla bla</p>
+                <h5 class="carousel-heading">Amazing<br>Avocados</h5>
+                <p>Coconut sugar soup roasted peanuts maple orange tempeh açai seeds pinch of yum Bolivian rainbow pepper cool off dragon fruit cinnamon overflowing berries summer fruit salad a delicious meal couscous hummus falafel bowl salty appetizer butternut mix ultra creamy avocado pesto. </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/header-3.jpg" class="d-block w-100" alt="...">
+            <img src="/img/header-1.jpg" class="d-block w-75 mx-auto carousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-heading">Amazing<br>Avocados</h5>
+              <p>Coconut sugar soup roasted peanuts maple orange tempeh açai seeds pinch of yum Bolivian rainbow pepper cool off dragon fruit cinnamon overflowing berries summer fruit salad a delicious meal couscous hummus falafel bowl salty appetizer butternut mix ultra creamy avocado pesto. </p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/header-1.jpg" class="d-block w-100" alt="...">
+            <img src="/img/header-3.jpg" class="d-block w-75 mx-auto carousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-heading">Amazing<br>Avocados</h5>
+              <p>Coconut sugar soup roasted peanuts maple orange tempeh açai seeds pinch of yum Bolivian rainbow pepper cool off dragon fruit cinnamon overflowing berries summer fruit salad a delicious meal couscous hummus falafel bowl salty appetizer butternut mix ultra creamy avocado pesto. </p>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -81,18 +116,132 @@
         </a>
       </div>
 
+      <!-- ABOUT SECTION -->
 
-    <div class="about">
-        <h2>Amazing Avocados</h2>
-        <p>Internationally renowned, multi-Michelin starred chef Gordon Ramsay has opened a string of successful restaurants across the globe, from the UK and France to Singapore and Hong Kong, to the United States. Gordon has also become a star of the small screen both in the UK and internationally, with shows such as Kitchen Nightmares, Hell’s Kitchen, Hotel Hell and MasterChef US.</p>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-
-    </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="text-center">
+          <h2>About Amazing Avocados</h2>
+          <hr>
+          <p class="font-italic ml-5 mr-5">Internationally renowned, multi-Michelin starred chef Gordon Ramsay has opened a string of successful restaurants across the globe, from the UK and France to Singapore and Hong Kong, to the United States. Gordon has also become a star of the small screen both in the UK and internationally, with shows such as Kitchen Nightmares, Hell’s Kitchen, Hotel Hell and MasterChef US.</p>
+          <div class="collapse" id="collapseExample">
+            <p class="ml-5 mr-5">
+              Red amazon pepper zesty tofu pad thai edamame hummus cherries ginger tofu green bowl naga viper butternut mix overflowing berries chocolate cookie. Sriracha pecans hazelnut shiitake cozy cinnamon oatmeal Italian linguine puttanesca sleepy morning tea mint lime taco salsa grapefruit delightful blueberry scones bruschetta mocha chocolate cayenne ultra creamy avocado pesto picnic salad edamame roasted butternut squash green papaya salad fig arugula cashew salad.
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">More</button>
+        </div>
+      </div>
 
     <!-- MAIN SECTION : CRIS-->
 
-    <div>
+  <div class="card-section" style="width: 60%">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="card-header" style="bold">Breakfast</h4>
+      </div>      
+        <div class="col-sm-4">
+          <div class="card">
+            <a class="link-page" href="#" target="_blank">
+              <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+              <div class="card-body">
+                  <h6 class="card-title">Card title</h6>              
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+          </a>
+        </div>
+      </div>
+    
     </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="card-header" style="bold">Lunch</h4>
+      </div> 
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                  <h6 class="card-title">Card title</h6>              
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+          </a>
+        </div>
+      </div>
+    
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="card-header" style="bold">Dessert</h4>
+      </div> 
+      <div class="col-sm-4">
+          <div class="card">
+            <a class="link-page" href="#" target="_blank">
+              <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+              <div class="card-body">
+                  <h6 class="card-title">Card title</h6>              
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <a class="link-page" href="#" target="_blank">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/avocimg1.jpg" alt="Card image top" onclick="window.open('anotherpage.html', '_blank');"/>
+            <div class="card-body">
+                <h6 class="card-title">Card title</h6>              
+            </div>
+        </div>
+      </div>        
+    </div>
+  </div>
+
 
     <!-- BLOG SECTION : ???-->
 
@@ -102,8 +251,14 @@
 
     <!-- FOOTER SECTION : LAURA -->
     
-    <div>
-
+    <div class="row bg-light">
+      <div class="col">
+        <nav class="nav justify-content-center">
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#">Subscribe</a>
+        </nav>
+      </div>
     </div>
     
 
