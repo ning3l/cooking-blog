@@ -11,46 +11,39 @@
 </head>
 <body>
 
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-    
+  <!--  navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#"><img class="logo" src="/img/logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ml-3">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="#">Breakfast</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="#">Lunch</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="#">Dinner</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
 
 
+  <!--  recipe container-->
   <div class="container">
     <div class="row">
         <div class="col-12">
@@ -67,8 +60,6 @@
        
        <!--  main information section-->
     
-
-       
      <div class="maincontent row justify-content-md-center justify-content-sm-start">
             <div class="col-5">
                 <img class="recipeimg" src="https://images.unsplash.com/photo-1560155016-bd4879ae8f21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"> 
@@ -134,65 +125,81 @@
            </div>
         </div>
 
-<!-- Comment section-->
 
+    </div>
+   </div>
 
-<div class="container">
+<!-- comments -->
+
+   <div class="container comments-outer">
     <!-- Row 1-->
-
-      <div class="container-1">
-          <div class="row">
-                  <div class="col-sm-2">
-                    <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" alt="profile-pic"/>
-                    <h6>Hannah Bannana</h6>
-                  </div>
-                  <div class="col-sm-6">
-                  <h3>Hated the recipe, find another fruit to ruin!</h3>
-                  </div>
-                  <div class="col-sm-4">
-                    <img src="/comment-section icons/rating-icon-bad.png" alt="rating-picture"/>
-                  </div>
-          </div>
+    <div class="container">
+      <div class="row comment-row">
+            <div class="col-sm-2">
+              <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" alt="profile-pic" class="rating-img"/>
+              <h6 class="commentHeading-small">Hannah Banana</h6>
+            </div>
+            <div class="col-sm-6 comment-cols">
+              <h3 class="commentHeading-big">Hated the recipe, find another fruit to ruin!</h3>
+            </div>
+            <div class="col-sm-4">
+              <img src="comment-section icons/rating-icon.png" alt="rating-picture" class="ratings"/>
+            </div>
       </div>
+    </div>
 
       <!--Row 2-->
-        <div class="container-2">
-          <div class="row">
+        <div class="container">
+          <div class="row comment-row">
                 <div class="col-sm-2">
-                  <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" alt="profile-pic"/>
-                  <h6>DatHass</h6>
+                  <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" alt="profile-pic" class="rating-img"/>
+                  <h6 class="commentHeading-small">DatHass</h6>
                 </div>
-                <div class="col-sm-6">
-                  <h3>I enjoyed this a lot but I cut my hand badly while<br>
+                <div class="col-sm-6 comment-cols">
+                  <h3 class="commentHeading-big">I enjoyed this a lot but I cut my hand badly while<br>
                       cutting open the avocado!<br>
                   </h3>
                 </div>
                 <div class="col-sm-4">
-                  <img src="comment-section icons/rating-icon.png" alt="rating-picture"/>
+                  <img src="comment-section icons/rating-icon.png" alt="rating-picture" class="ratings"/>
                 </div>
           </div>
         </div>
 
       <!--Row 3-->
-
-        <div class="container-3">
-          <div class="row">
+        <div class="container">
+          <div class="row comment-row">
             <div class="col-sm-2">
-              <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" class=ranking-image alt="profile-pic"/>
-              <h6>Avo Carlo</h6>
+              <img src="http://cdn.onlinewebfonts.com/svg/img_411076.png" alt="profile-pic" class="rating-img"/>
+              <h6 class="commentHeading-small">Avo Carlo</h6>
             </div>
-            <div class="col-sm-6">
-              <h3>I loved this recipe, you are so creative and clever!<br>
-                  Love, the design of your blog btw, you go girl!
+            <div class="col-sm-6 comment-cols">
+              <h3 class="commentHeading-big">I loved this recipe, you are so creative and clever!<br>
+                 Love, the design of your blog btw, you go girl!
               </h3>
             </div>
             <div class="col-sm-4">
-              <img src="comment-section icons/rating-icon-super.png" alt="rating-picture"/>
+              <img src="comment-section icons/rating-icon-super.png" alt="rating-picture" class="ratings"/>
             </div>
-            <button>Comment</button>
+            <button class="comment-button">Comment</button>
           </div>
         </div>
 </div>
+  
+     
+
+
+    <!-- FOOTER SECTION -->
+    
+    <div class="row bg-light">
+      <div class="col">
+        <nav class="nav justify-content-center">
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#">Subscribe</a>
+        </nav>
+      </div>
+    </div>
 
 
 </body>
